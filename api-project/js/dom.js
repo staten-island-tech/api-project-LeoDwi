@@ -1,9 +1,9 @@
-const ApiLinks = {
-  today: "https://my_host/calendar/day/",
-  input: "https://my_host/calendar/day/2018-06-09/",
+export const ApiLinks = {
+  Breeds: "https://dog.ceo/api/breeds/list/all",
+  Images: "https://dog.ceo/api/breeds/hound/images",
 };
 
-const DOMSelectors = {
+export const DOMSelectors = {
   day: document.getElementById("day"),
   month: document.getElementById("month"),
   year: document.getElementById("year"),
