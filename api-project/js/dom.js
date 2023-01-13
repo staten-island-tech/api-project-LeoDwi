@@ -4,9 +4,7 @@ export const ApiLinks = {
 };
 
 export const DOMSelectors = {
-  day: document.getElementById("day"),
-  month: document.getElementById("month"),
-  year: document.getElementById("year"),
+  input: document.getElementById("breed"),
+  button: document.getElementById("btn"),
+  parent: document.getElementById("cards"),
 };
-
-const Card = {};
