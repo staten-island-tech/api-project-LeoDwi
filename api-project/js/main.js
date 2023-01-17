@@ -21,6 +21,7 @@ async function getData(URL) {
     const response = await fetch(URL);
     const data = await response.json();
     console.log(data);
+    document.getElementById("cards").innerHTML = data;
     return data;
   } catch (error) {
     console.log(error);
@@ -28,12 +29,12 @@ async function getData(URL) {
 }
 
 getData(ApiLinks.Breeds);
-getData(ApiLinks.Images);
+getData("https://dog.ceo/api/breed/Husky/image/random");
 
 DOMSelectors.button.addEventListener("click", function (event) {
   getData(ApiLinks.Breeds);
-  console.log(data);
-  insertHTML();
+  //console.log(data);
+  //insertHTML(data);
   clearInput();
   event.preventDefault();
 });
