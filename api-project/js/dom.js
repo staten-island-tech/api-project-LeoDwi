@@ -1,5 +1,5 @@
 function image(x) {
-  const image = "https://dog.ceo/api/`${x}`/hound/images";
+  const image = `https://dog.ceo/api/${x}/hound/images`;
 }
 
 export const DOMSelectors = {
