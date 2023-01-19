@@ -19,22 +19,25 @@ function clearInput() {
 async function getData(URL) {
   try {
     const response = await fetch(URL);
-    const data = await response.json();
+    const object = await response.json();
+    const data = Object.values(object);
     console.log(data);
-    document.getElementById("cards").innerHTML = data;
-    return data;
+    //return data;
   } catch (error) {
     console.log(error);
   }
 }
 
 getData(ApiLinks.Breeds);
-getData("https://dog.ceo/api/breed/Husky/image/random");
+//getData("https://dog.ceo/api/breed/Shiba/images/random");
+console.log(data);
 
 DOMSelectors.button.addEventListener("click", function (event) {
   getData(ApiLinks.Breeds);
   //console.log(data);
-  //insertHTML(data);
+  data.forEach((dog) => {
+    insertHTML(dog, e);
+  });
   clearInput();
   event.preventDefault();
 });
