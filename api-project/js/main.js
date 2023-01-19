@@ -20,9 +20,9 @@ async function getData(URL) {
   try {
     const response = await fetch(URL);
     const object = await response.json();
-    const data = Object.values(object);
+    const data = Object.values(object)[1];
     console.log(data);
-    //return data;
+    return data;
   } catch (error) {
     console.log(error);
   }
@@ -30,13 +30,13 @@ async function getData(URL) {
 
 getData(ApiLinks.Breeds);
 //getData("https://dog.ceo/api/breed/Shiba/images/random");
-console.log(data);
+console.log(getData(ApiLinks.Breeds));
 
 DOMSelectors.button.addEventListener("click", function (event) {
   getData(ApiLinks.Breeds);
   //console.log(data);
-  data.forEach((dog) => {
-    insertHTML(dog, e);
+  data.forEach((object) => {
+    insertHTML(object, e);
   });
   clearInput();
   event.preventDefault();
