@@ -2,7 +2,7 @@ import "../styles/style.css";
 import { ApiLinks, DOMSelectors } from "./dom";
 
 function insertHTML(x, y) {
-  parent.insertAdjacentHTML(
+  DOMSelectors.parent.insertAdjacentHTML(
     "afterend",
     `
   <div class="card">
@@ -28,16 +28,24 @@ async function getData(URL) {
   }
 }
 
+async function getImage(URL) {
+  try {
+    const response = await fetch(URL);
+    return response;
+  } catch (error) {
+    console.log(error);
+  }
+}
+
 getData(ApiLinks.Breeds);
-//getData("https://dog.ceo/api/breed/Shiba/images/random");
+getData("https://dog.ceo/api/breed/husky/images/random");
 console.log(getData(ApiLinks.Breeds));
 
 DOMSelectors.button.addEventListener("click", function (event) {
   getData(ApiLinks.Breeds);
   //console.log(data);
-  data.forEach((object) => {
-    insertHTML(object, e);
-  });
+  getImage(ApiLinks.Images);
+  insertHTML(getData(ApiLinks.Breeds), getImage(ApiLinks.Images));
   clearInput();
   event.preventDefault();
 });

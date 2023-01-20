@@ -1,5 +1,7 @@
 function image(x) {
-  const image = `https://dog.ceo/api/${x}/hound/images`;
+  const image = `https://dog.ceo/api/breed/${x}/images/random`;
+  console.log(image);
+  return image;
 }
 
 export const DOMSelectors = {
