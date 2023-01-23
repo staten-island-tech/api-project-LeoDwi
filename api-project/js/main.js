@@ -37,6 +37,11 @@ async function getImage(URL) {
   }
 }
 
+async function init(x) {
+  let promise = await x;
+  return promise;
+}
+
 getData(ApiLinks.Breeds);
 getData("https://dog.ceo/api/breed/husky/images/random");
 console.log(getData(ApiLinks.Breeds));
