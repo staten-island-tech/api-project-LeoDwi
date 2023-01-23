@@ -44,6 +44,7 @@ console.log(getData(ApiLinks.Breeds));
 DOMSelectors.button.addEventListener("click", function (event) {
   getData(ApiLinks.Breeds);
   //console.log(data);
+  console.log(ApiLinks.Images);
   getImage(ApiLinks.Images);
   insertHTML(getData(ApiLinks.Breeds), getImage(ApiLinks.Images));
   clearInput();
