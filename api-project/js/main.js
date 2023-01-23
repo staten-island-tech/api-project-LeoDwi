@@ -49,3 +49,5 @@ DOMSelectors.button.addEventListener("click", function (event) {
   clearInput();
   event.preventDefault();
 });
+
+console.log(ApiLinks.Images);
