@@ -7,7 +7,7 @@ function insertHTML(input, image) {
     `
   <div class="card">
   <h1 class=dog-class>${input}</h1>
-  <img class="display-image" src="${image}" alt="display image">
+  <img class="display-image" src="${image}" alt="display image of a ${input} dog">
   </div>`
   );
 }
@@ -29,7 +29,7 @@ async function getData(URL) {
     console.log(subBreeds);
     const data = primaryBreeds.concat(...subBreeds);
     console.log(data);
-    return data;
+    return primaryBreeds;
   } catch (error) {
     console.log(error);
   }
@@ -55,6 +55,7 @@ async function init(x) {
 }
 
 function startUp() {
+  clear();
   getData(ApiLinks.Breeds).then((data) => {
     data.forEach((breed) => {
       parentInserter(breed);
@@ -90,9 +91,9 @@ DOMSelectors.button.addEventListener("click", function (event) {
 });
 
 async function hello() {
-  let hello = await fetch`https://dog.ceo/api/breed/irish/images/random`;
+  let hello = await fetch`https://dog.ceo/api/breed/irish/images/rando`;
   let hi = await hello;
+  parentInserter(irish, hi);
   console.log(hi);
+  console.log(`status code: ${response.status}`);
 }
-
-hello();

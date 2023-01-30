@@ -7,6 +7,16 @@ body,
   font-size: 62.5%;
 }
 
+.body {
+  background-color: gray;
+}
+
+.title {
+  align-self: center;
+  font-size: 8rem;
+  text-align: center;
+}
+
 .cards {
   display: flex;
   flex-wrap: wrap;
@@ -27,6 +37,7 @@ body,
   width: 25vw;
   border: black solid 3px;
   border-radius: 10px;
+  background-color: aliceblue;
 }
 
 .display-image {
@@ -71,14 +82,16 @@ body,
   border: 1px black solid;
 }
 
-.form, .form-parent {
+.form,
+.form-parent {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
   text-align: center;
   align-items: center;
-  font-size: 50px;
 }
 
-.form-input
+.form-input {
+  font-size: 8rem;
+}
