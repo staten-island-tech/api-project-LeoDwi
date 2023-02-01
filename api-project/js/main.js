@@ -94,11 +94,3 @@ DOMSelectors.button.addEventListener("click", function (event) {
   clear();
   event.preventDefault();
 });
-
-async function hello() {
-  let hello = await fetch`https://dog.ceo/api/breed/irish/images/rando`;
-  let hi = await hello;
-  parentInserter(irish, hi);
-  console.log(hi);
-  console.log(`status code: ${response.status}`);
-}
