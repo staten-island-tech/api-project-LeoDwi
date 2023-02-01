@@ -6,7 +6,7 @@ function insertHTML(input, image) {
     "beforeend",
     `
   <div class="card">
-  <h1 class=dog-class>${input}</h1>
+  <h2 class=dog-class>${input}</h2>
   <img class="display-image" src="${image}" alt="display image of a ${input} dog">
   </div>`
   );
@@ -74,6 +74,11 @@ function clear() {
 }
 
 startUp();
+
+DOMSelectors.all.addEventListener("cick", function (event) {
+  startUp();
+  event.preventDefault();
+});
 
 DOMSelectors.button.addEventListener("click", function (event) {
   const breed = DOMSelectors.input.value.toLowerCase();

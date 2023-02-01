@@ -47,7 +47,8 @@ body,
   object-fit: cover;
 }
 
-#btn {
+#btn,
+.all {
   font-size: 30px;
   width: 25vw;
   padding: 20px 20px;
@@ -80,6 +81,10 @@ body,
   padding: 20px 20px;
   margin: 30px 0px;
   border: 1px black solid;
+}
+
+.instructions {
+  font-size: 2rem;
 }
 
 .form,
@@ -139,5 +144,8 @@ body,
   #breed {
     margin: 0px 0px;
     width: 80vw;
+  }
+  .instructions {
+    font-size: 1.25rem;
   }
 }

@@ -1,4 +1,5 @@
 export const DOMSelectors = {
+  all: document.getElementById("all"),
   input: document.getElementById("breed"),
   button: document.getElementById("btn"),
   parent: document.getElementById("cards"),
