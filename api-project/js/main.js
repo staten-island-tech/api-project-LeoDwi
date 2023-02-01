@@ -32,6 +32,8 @@ async function getData(URL) {
     return primaryBreeds;
   } catch (error) {
     console.log(error);
+    clear();
+    DOMSelectors.parent.innerHTML = `<p class="error">${error}</p>`;
   }
 }
 
@@ -45,6 +47,8 @@ async function getImage(URL) {
     return image.message;
   } catch (error) {
     console.log(error);
+    clear();
+    DOMSelectors.parent.innerHTML = `<p class="error">${error}</p>`;
   }
 }
 
