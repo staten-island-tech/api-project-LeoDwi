@@ -1,1 +1,149 @@
-<mxfile host="app.diagrams.net" modified="2023-02-08T23:58:34.095Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="20.8.18" etag="cnN9mBW8VyKYWMKZSGmT" type="github"><diagram name="Page-1" id="5XJ_lRwhcG986CjSnBE2">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-02-09T02:34:17.255Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="kx0WGsamFXM08M-lhXCq" version="20.8.18" type="github">
+  <diagram name="Page-1" id="5XJ_lRwhcG986CjSnBE2">
+    <mxGraphModel dx="1900" dy="577" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3SOvUxcNiQuhcU-Lkn2h-1" value="The user gives an input." style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="60" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3SOvUxcNiQuhcU-Lkn2h-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3SOvUxcNiQuhcU-Lkn2h-2" target="3SOvUxcNiQuhcU-Lkn2h-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3SOvUxcNiQuhcU-Lkn2h-2" value="Cat Facts&lt;br&gt;(button)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3SOvUxcNiQuhcU-Lkn2h-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3SOvUxcNiQuhcU-Lkn2h-4" target="3SOvUxcNiQuhcU-Lkn2h-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3SOvUxcNiQuhcU-Lkn2h-4" value="Random option&lt;br&gt;(button)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3SOvUxcNiQuhcU-Lkn2h-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3SOvUxcNiQuhcU-Lkn2h-6" target="3SOvUxcNiQuhcU-Lkn2h-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3SOvUxcNiQuhcU-Lkn2h-6" value="Dog Facts&lt;br&gt;(button)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3SOvUxcNiQuhcU-Lkn2h-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.577;entryY=0.047;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="3SOvUxcNiQuhcU-Lkn2h-1" target="3SOvUxcNiQuhcU-Lkn2h-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="230" as="sourcePoint" />
+            <mxPoint x="360" y="200" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="425" y="200" />
+              <mxPoint x="359" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3SOvUxcNiQuhcU-Lkn2h-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3SOvUxcNiQuhcU-Lkn2h-1" target="3SOvUxcNiQuhcU-Lkn2h-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="230" as="sourcePoint" />
+            <mxPoint x="450" y="180" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="425" y="200" />
+              <mxPoint x="560" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3SOvUxcNiQuhcU-Lkn2h-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.56;entryY=0.02;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="3SOvUxcNiQuhcU-Lkn2h-1" target="3SOvUxcNiQuhcU-Lkn2h-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="140" as="sourcePoint" />
+            <mxPoint x="590" y="90" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="425" y="180" />
+              <mxPoint x="30" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3SOvUxcNiQuhcU-Lkn2h-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3SOvUxcNiQuhcU-Lkn2h-15" target="3SOvUxcNiQuhcU-Lkn2h-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3SOvUxcNiQuhcU-Lkn2h-15" value="Get a random cat api" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3SOvUxcNiQuhcU-Lkn2h-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3SOvUxcNiQuhcU-Lkn2h-16" target="3SOvUxcNiQuhcU-Lkn2h-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3SOvUxcNiQuhcU-Lkn2h-16" value="Get a random dog api" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3SOvUxcNiQuhcU-Lkn2h-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3SOvUxcNiQuhcU-Lkn2h-17" target="3SOvUxcNiQuhcU-Lkn2h-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3SOvUxcNiQuhcU-Lkn2h-17" value="Get a random input" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3SOvUxcNiQuhcU-Lkn2h-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3SOvUxcNiQuhcU-Lkn2h-21" target="3SOvUxcNiQuhcU-Lkn2h-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3SOvUxcNiQuhcU-Lkn2h-21" value="Read response to see how it should be handled" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3SOvUxcNiQuhcU-Lkn2h-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3SOvUxcNiQuhcU-Lkn2h-22" target="3SOvUxcNiQuhcU-Lkn2h-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3SOvUxcNiQuhcU-Lkn2h-22" value="Read response to see how it should be handled" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3SOvUxcNiQuhcU-Lkn2h-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3SOvUxcNiQuhcU-Lkn2h-25" target="3SOvUxcNiQuhcU-Lkn2h-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3SOvUxcNiQuhcU-Lkn2h-25" value="Handle the api data appropriately then return that data" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3SOvUxcNiQuhcU-Lkn2h-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3SOvUxcNiQuhcU-Lkn2h-26" target="3SOvUxcNiQuhcU-Lkn2h-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3SOvUxcNiQuhcU-Lkn2h-26" value="Handle the api data appropriately then return that data" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3SOvUxcNiQuhcU-Lkn2h-33" value="Insert the data into the HTML" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="630" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3SOvUxcNiQuhcU-Lkn2h-34" value="Insert the data into the HTML" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="630" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3SOvUxcNiQuhcU-Lkn2h-35" value="Cats" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3SOvUxcNiQuhcU-Lkn2h-36" value="Dogs" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3SOvUxcNiQuhcU-Lkn2h-39" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.577;entryY=0.02;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="3SOvUxcNiQuhcU-Lkn2h-17" target="3SOvUxcNiQuhcU-Lkn2h-36">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="570" as="sourcePoint" />
+            <mxPoint x="430" y="520" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="20" y="440" />
+              <mxPoint x="-60" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3SOvUxcNiQuhcU-Lkn2h-40" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3SOvUxcNiQuhcU-Lkn2h-35" target="3SOvUxcNiQuhcU-Lkn2h-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="90" y="600" as="sourcePoint" />
+            <mxPoint x="140" y="550" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="90" y="560" />
+              <mxPoint x="200" y="560" />
+              <mxPoint x="200" y="430" />
+              <mxPoint x="480" y="430" />
+              <mxPoint x="480" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3SOvUxcNiQuhcU-Lkn2h-41" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="3SOvUxcNiQuhcU-Lkn2h-36" target="3SOvUxcNiQuhcU-Lkn2h-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="570" as="sourcePoint" />
+            <mxPoint x="430" y="520" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-70" y="550" />
+              <mxPoint x="180" y="550" />
+              <mxPoint x="180" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
